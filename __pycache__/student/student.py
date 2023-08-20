@@ -34,14 +34,6 @@ class Student:
 
 
 
-
-
-
-
-
-
-
-
 #img01
          img=Image.open(r"C:\Users\wn10\Desktop\face_recognisation_system\Camera Roll\img01.jpg")
          img=img.resize((500,130),Image.ANTIALIAS)
@@ -209,7 +201,6 @@ class Student:
          
          Radionbtn2=ttk.Radiobutton(class_students_frame,variable=self.var_radio1,text="No photo Sample",value="No")
          Radionbtn2.grid(row=5,column=1)
-
 
 
 
